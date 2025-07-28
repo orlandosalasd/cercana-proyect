@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+
+# macOS files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pytype
+.pytype/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# Pyre type checker
+.pyre/
+
+# PEP 582; used by e.g. pdm
+__pypackages__/
+
+# VSCode settings
+.vscode/
+
+# Local development tools
+*.log
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# SQLAlchemy/Migrations
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Testing output
+test-results/
+
+# FastAPI static or media (if generated locally)
+static/
+media/
+
+# PyCharm
+.idea/
