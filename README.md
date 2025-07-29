@@ -51,12 +51,23 @@ http://localhost:8000/docs
 
 Se configuro un archivo docker-compose.test.yml para levantar una base de datos de pruebas.
 
+Es necesario instalar los requerimientos del proyecto en un entorno con poetry antes de seguir los siguientes pasos. comando sugerido (tener instalado poetry):
+
+```bash
+poetry install --no-root
+```
+
 ### 1. Levantamos el servicio
 ```bash
 docker-compose -f docker-compose.test.yml up -d
 ```
 
 ### 2. Ejecutamos Pytest
+Activa el entorno de poetry:
+```bash
+poetry shell
+```
+ejecuta los test: 
 ```bash
 pytest
 ```
